@@ -11,7 +11,7 @@
   * @see 
   */
 
-#include "complejo_func.h"
+#include "Complex.cc"
 
 int main (){       ///El programa sua y resta los números complejos complexnumb1 y complexnumb2
   Complex complexnumb1 (2, -3);

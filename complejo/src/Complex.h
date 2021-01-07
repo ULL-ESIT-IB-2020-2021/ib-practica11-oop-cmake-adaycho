@@ -27,6 +27,9 @@ class Complex{
 
     friend Complex operator+(const Complex &c1, const Complex &c2);
     friend Complex operator-(const Complex &c1, const Complex &c2);
+
+    Complex add(Complex complexnumb1, Complex complexnumb2);
+    Complex sub(Complex complexnumb1, Complex complexnumb2);
 };
 
 #endif

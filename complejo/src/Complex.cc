@@ -32,3 +32,12 @@ void Complex::print() {
     std::cout << _realN << " + " << _imaginaryN << "i" << std::endl;
   }
 }
+
+///Funciones que permiten la suma y resta de números complejos
+
+Complex add(Complex complexnumb1, Complex complexnumb2) {
+  return complexnumb1 + complexnumb2;
+}
+Complex sub(Complex complexnumb1, Complex complexnumb2) {
+  return complexnumb1 - complexnumb2;
+}

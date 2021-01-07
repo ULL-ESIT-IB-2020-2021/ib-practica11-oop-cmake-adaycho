@@ -27,12 +27,12 @@ class Date{
   public:
     Date(): _day(0), _month(0), _year(0) {};
     Date(int day,int month,int year): _day(day), _month(month), _year(year) {};
-    void print();
-    void leapyear();
-    void nextday();
-    int GetDay() const;
-    int GetMonth() const;
-    int GetYear() const;
+    void print() ;
+    void leapyear() ;
+    void nextday() ;
+    int GetDay() const ; 
+    int GetMonth() const ;
+    int GetYear() const ;
 };
 
 #endif

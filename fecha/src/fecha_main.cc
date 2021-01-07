@@ -24,7 +24,7 @@ int main(int argc, char* argv[]){
 
     int ndate = std::stoi(argv[4]);                                                   ///Número de fechas a escribir en el texto
 
-    Date actualdate(std::stoi(argv[1]), std::stoi(argv[2]), std::stoi(argv[3]));      ///Crea la fecha en la clase DAte
+    Date actualdate(std::stoi(argv[1]), std::stoi(argv[2]), std::stoi(argv[3]));      ///Crea la fecha en la clase Date
 
     for(int i = 0; i < ndate; ++i) {                                                  ///Se suma un día y se imprime en el texto
       actualdate.nextday();    
